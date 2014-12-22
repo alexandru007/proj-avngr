@@ -1,6 +1,26 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
 .fa-5 {
   font-size: 7em;
   padding: 20px;
+}
+
+.jumbotron {
+  background-color: #607D8B;
+}
+
+.site-wrapper {
+  /*border-top: solid .4em #37474F;*/
+  background-color: #CFD8DC;
+}
+
+h2 {
+  text-shadow:1em;
+  display: block;
+  /*background-color: #E65100;*/
+  color: #E0E0E0;
+  /*padding: 10px;*/
 }
 
 .bs-docs-footer {
@@ -12,8 +32,22 @@
   border-top: 1px solid #e5e5e5;
 }
 
+.title-row {
+  display: block;
+  background-color: #263238;
+}
+
+.contrib-row {
+  background-color: #263238;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
 .title {
+  font-family: 'Roboto', sans-serif;
   padding-bottom: 20px;
+  color: #ECEFF1;
 }
 
 .circle {
@@ -24,7 +58,7 @@
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .nexus {
-  color: red;
+  color: #E53935;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -37,8 +71,4 @@
   /*border-radius: 15px;*/
   padding: 10px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-.site-wrapper {
-  border-top: solid .4em #004D40;
 }
